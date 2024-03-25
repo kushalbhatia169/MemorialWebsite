@@ -1,6 +1,6 @@
 import { FETCH_ALL, CREATE, UPDATE, DELETE, LIKE } from '../constants/actionTypes';
 
-export const Actions = (posts = [], action) => {
+export const PostActions = (posts = [], action) => {
   switch (action.type) {
     case FETCH_ALL:
       return action.payload;
